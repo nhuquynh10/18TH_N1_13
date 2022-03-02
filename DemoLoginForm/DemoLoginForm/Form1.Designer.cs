@@ -42,9 +42,9 @@ namespace DemoLoginForm
             this.label1.Location = new System.Drawing.Point(155, 66);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(75, 17);
+            this.label1.Size = new System.Drawing.Size(105, 17);
             this.label1.TabIndex = 0;
-            this.label1.Text = "UserName";
+            this.label1.Text = "Ten dang nhap";
             // 
             // txtUserName
             // 
@@ -69,9 +69,9 @@ namespace DemoLoginForm
             this.label2.Location = new System.Drawing.Point(155, 134);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(69, 17);
+            this.label2.Size = new System.Drawing.Size(66, 17);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Password";
+            this.label2.Text = "Mat khau";
             // 
             // button1
             // 
@@ -79,7 +79,7 @@ namespace DemoLoginForm
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(171, 23);
             this.button1.TabIndex = 4;
-            this.button1.Text = "Login";
+            this.button1.Text = "Dang nhap";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
