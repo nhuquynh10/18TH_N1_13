@@ -33,6 +33,7 @@ namespace DemoLoginForm
             this.txtUserName = new System.Windows.Forms.TextBox();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -40,9 +41,9 @@ namespace DemoLoginForm
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(116, 54);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(57, 13);
+            this.label1.Size = new System.Drawing.Size(63, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "UserName";
+            this.label1.Text = "UserName1";
             // 
             // txtUserName
             // 
@@ -55,6 +56,7 @@ namespace DemoLoginForm
             // 
             this.txtPassword.Location = new System.Drawing.Point(201, 101);
             this.txtPassword.Name = "txtPassword";
+            this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(209, 20);
             this.txtPassword.TabIndex = 3;
             // 
@@ -63,15 +65,27 @@ namespace DemoLoginForm
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(116, 109);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 13);
+            this.label2.Size = new System.Drawing.Size(66, 17);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Password";
+            this.label2.Text = "Mat khau";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(201, 152);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(128, 19);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Test 111";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(762, 235);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtUserName);
@@ -89,6 +103,7 @@ namespace DemoLoginForm
         private System.Windows.Forms.TextBox txtUserName;
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button1;
     }
 }
 
